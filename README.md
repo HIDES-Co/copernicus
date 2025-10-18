@@ -20,6 +20,11 @@ You need to have Python 3.12 or higher and `uv` installed on your system. You ca
     ```bash
     source .venv/bin/activate
     ```
+    For Windows, use:
+    
+    ```bash
+    .venv\Scripts\activate
+    ```
 3.  **Install the dependencies:**
     ```bash
     uv pip install -e .[dev]
